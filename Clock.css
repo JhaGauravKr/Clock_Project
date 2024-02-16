@@ -1,0 +1,43 @@
+/* Clock.css */
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+
+.clock-container {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.clock-box {
+    border: 2px solid #0ff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock-digits {
+    font-size: 32px;
+    color: #fff;
+}
+
+.clock-label {
+    font-size: 14px;
+    color: #fff;
+}
+
+.ampm {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+}
