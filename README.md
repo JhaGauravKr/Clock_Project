@@ -1,3 +1,53 @@
+File Structure
+
+
+clock_project/
+├── clock/
+|   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+|   ├── models.py
+|   ├── tests.py
+|   ├── views.py
+│   ├── migrations/
+│   │   └── __init__.py
+|   ├── static/
+|   |   └── clock/
+|   |        └── Clock.js
+├── clock_project/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── clockapp/
+|   ├── __init__.py
+|   ├── admin.py
+|   ├── apps.py
+|   ├── models.py
+|   ├── serializers.py
+|   ├── tests.py
+|   ├── views.py
+│   ├── migrations/
+│   │   └── __init__.py
+├── frontend/
+|   |   └── src
+|   |        └── App.css
+|   |        └── App.js
+|   |        └── App.test.js
+|   |        └── Clock.css
+|   |        └── Clock.js
+|   |        └── index.css
+|   |        └── index.js
+|   |        └── reportWebVitals.js
+|   |        └── setupTests.js
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
